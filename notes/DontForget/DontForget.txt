@@ -1,0 +1,2 @@
+// Random things to not forget
+1) Don't edit sprites (Mainly tiles) in an image editor while the game is running/open
