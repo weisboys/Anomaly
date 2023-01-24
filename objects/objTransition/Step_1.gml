@@ -8,14 +8,15 @@ if (leading == OUT)
 	{
 		room_goto(target);
 		leading = IN;
+
 	}
 }
 else //leading  == IN
-{
+{	
+	with (objPlayer) state = PlayerStateFree;
 	percent = max(0, percent - TRANSITION_SPEED);
 	if (percent <= 0) //screen fully revealed
 	{
-		with (objPlayer) state = PlayerStateFree;
 		instance_destroy();
 	}
 }
