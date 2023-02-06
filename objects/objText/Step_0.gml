@@ -1,4 +1,4 @@
-lerpProgress += (1 - lerpProgress) / 50;
+lerpProgress += (1 - lerpProgress);
 textProgress += global.textSpeed;
 
 x1 = lerp(x1,x1Target,lerpProgress);
