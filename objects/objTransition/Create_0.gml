@@ -3,7 +3,7 @@ enum TRANS_TYPE
 {
 	SLIDE,
 	FADE,
-	CIRCLE,
+	BATTLE,
 	STAR,
 	WIPE
 }
@@ -13,4 +13,7 @@ height = RESOLUTION_H;
 heightHalf = (height * 0.5) + 20;
 percent = 0;
 leading = OUT;
+//for battle transition
+_rows = 20;
+_columns = 30;
 
