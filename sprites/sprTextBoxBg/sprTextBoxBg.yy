@@ -105,8 +105,8 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Text Box",
+    "path": "folders/Sprites/Text Box.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprTextBoxBg",

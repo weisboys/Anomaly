@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "Text Box",
+    "path": "folders/Scripts/Text Box.yy",
   },
   "resourceVersion": "1.0",
   "name": "NineSliceBoxStretched",
