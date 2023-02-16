@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sprWingWormBattle",
+    "path": "sprites/sprWingWormBattle/sprWingWormBattle.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

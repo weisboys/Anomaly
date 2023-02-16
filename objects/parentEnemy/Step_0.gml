@@ -12,7 +12,7 @@ if (!global.gamePaused)
 		if (!instance_exists(objTransition))
 		{
 			with (objPlayer) state = PlayerStateTransition;
-			RoomTransition(TRANS_TYPE.BATTLE,roomBattle);
+			StartBattle(objWingWormBattle); //this works but the enemy is immediatly deleted since we change to the battle screen
 			instance_destroy();
 		}
 	
