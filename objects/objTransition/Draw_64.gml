@@ -16,11 +16,11 @@ if (type == TRANS_TYPE.FADE)
 if (type == TRANS_TYPE.BATTLE)
 {
 	draw_set_color(c_teal);
-	//draw_rectangle(0,0,width,percent * heightHalf,false);
-	//draw_rectangle(0,height,width,height-(percent * heightHalf),false);
+	draw_rectangle(0,0,width,percent * heightHalf,false);
+	draw_rectangle(0,height,width,height-(percent * heightHalf),false);
 
-	var gridX = width;
-	var gridY = height;
-	instance_create_depth(gridX,gridY, 0, objBattleTransitionSqaure);
+	//var gridX = width;
+	//var gridY = height;
+	//instance_create_depth(gridX,gridY, 0, objBattleTransitionSqaure);
 	
 }
